@@ -14,7 +14,7 @@ app.get('/articleone', function (req, res) {
 });
 
 app.get('/articletwo', function (req, res) {
-  res.sendFile('Article 2 will be requested here');
+  res.sendFile("Article 2 will be requested here");
 });
 
 
